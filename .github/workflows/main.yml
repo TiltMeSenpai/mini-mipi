@@ -33,5 +33,5 @@ jobs:
     - name: Upload Gerbers
       uses: actions/upload-artifact@v1
       with:
-        name: gerbers
-        path: plot
+        name: gerbers.zip
+        path: plot/gerbers.zip
