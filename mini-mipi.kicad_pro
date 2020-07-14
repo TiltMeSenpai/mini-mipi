@@ -102,7 +102,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.127,
+        0.25,
         0.127,
         0.1778,
         0.254,
