@@ -5,6 +5,7 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 before_script:
+  - git fetch --tags
   - git log
 
 build_gerbers:
