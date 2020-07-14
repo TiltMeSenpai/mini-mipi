@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 20)
     (tracks 1149)
     (modules 56)
     (nets 203)
@@ -2994,12 +2994,15 @@
     )
   )
 
+  (gr_line (start 169.926 64.516) (end 169.926 62.865) (layer "F.SilkS") (width 0.12) (tstamp 3259d1ae-a56d-43df-a18c-9da22337a781))
+  (gr_line (start 178.308 64.516) (end 169.926 64.516) (layer "F.SilkS") (width 0.12) (tstamp b9f97ec7-d71f-4908-b8c0-0c1130ac9565))
+  (gr_line (start 178.308 62.865) (end 178.308 64.516) (layer "F.SilkS") (width 0.12) (tstamp 7f387c5d-d2ad-4d96-bf70-50738ddcaa40))
+  (gr_line (start 169.926 62.865) (end 178.308 62.865) (layer "F.SilkS") (width 0.12) (tstamp 4c67d6d8-81f6-4c8d-9f67-2f90faddef25))
   (gr_text "Mini-Mipi\n${GIT_REV}\nUNTESTED" (at 145.034 86.995 270) (layer "B.SilkS") (tstamp 83c951b8-bf82-446a-8bf3-54ed7fdc4d84)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 172.72 62.865) (end 172.72 64.516) (layer "F.SilkS") (width 0.12) (tstamp 09f3a93b-75e4-4e3f-a6a1-6ea9ee6ceaa4))
   (gr_line (start 175.514 64.516) (end 175.514 62.865) (layer "F.SilkS") (width 0.12) (tstamp 0198ed82-671e-4f78-aa58-3b0a61cf0a62))
-  (gr_rect (start 169.926 62.865) (end 178.435 64.516) (layer "F.SilkS") (width 0.12) (tstamp 3053b585-4be5-42a5-8488-16de4e88bbae))
   (gr_text "2v5" (at 176.911 63.754) (layer "F.SilkS") (tstamp c63a6946-ab13-4908-916e-9c1ee903668d)
     (effects (font (size 1 1) (thickness 0.15)))
   )
