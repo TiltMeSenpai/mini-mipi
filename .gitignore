@@ -1,0 +1,9 @@
+gerbers/*
+gerbers.zip
+plot/*
+plot.zip
+bom/*
+lib/datasheets
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad-bak

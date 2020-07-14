@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "mini_mipi")(type "KiCad")(uri "${KIPRJMOD}/mini_mipi.kicad_sym")(options "")(descr ""))
+)

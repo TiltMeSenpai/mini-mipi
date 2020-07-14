@@ -1,0 +1,11 @@
+image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build_gerbers:
+  script: 
+  - /usr/bin/plot_gerbers.py mini-mipi.kicad_pcb $(git describe --tags)
+  artifacts:
+    paths:
+    - plot
