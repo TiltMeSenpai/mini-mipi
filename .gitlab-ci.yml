@@ -4,6 +4,9 @@ variables:
   GIT_STRATEGY: clone
   GIT_SUBMODULE_STRATEGY: recursive
 
+before_script:
+  - git log
+
 build_gerbers:
   script: 
   - /usr/bin/plot_gerbers.py mini-mipi.kicad_pcb $(git describe --tags)
