@@ -1,6 +1,7 @@
 image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:latest
 
 variables:
+  GIT_STRATEGY: clone
   GIT_SUBMODULE_STRATEGY: recursive
 
 build_gerbers:
