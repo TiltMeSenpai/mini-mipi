@@ -28,7 +28,7 @@ jobs:
 
     - name: Zip Gerbers
       run: |
-        zip -r plot
+        zip plot plot/*
 
     - name: Create Release
       uses: actions/create-release@v1
