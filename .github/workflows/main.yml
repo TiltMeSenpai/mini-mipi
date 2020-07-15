@@ -23,6 +23,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Debug Git Repo
+      run:
+        - git log -5 --decorate
+
     # Runs a single command using the runners shell
     - name: Plot Gerbers
       uses: TiltMeSenpai/kicad-nightly-create-gerbers@dev
