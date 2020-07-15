@@ -19,22 +19,17 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
+        # We need the entire history for `git describe --tags` to work
         fetch-depth: 0
 
-    - name: Debug Git Repo
-      run: git log -5 --decorate
-
-    # Runs a single command using the runners shell
     - name: Plot Gerbers
       uses: TiltMeSenpai/kicad-nightly-create-gerbers@dev
       with:
         pcb-file: mini-mipi.kicad_pcb
 
-    # Runs a set of commands using the runners shell
     - name: Upload Gerbers
       uses: actions/upload-artifact@v1
       with:
