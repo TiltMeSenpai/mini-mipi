@@ -308,6 +308,18 @@
   "net_settings": {
     "classes": [
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -432,7 +444,7 @@
   },
   "sheets": [
     [
-      "193720c9-33fe-4d36-a3de-f4b71621871e",
+      "6a4ebe55-538d-41d2-9c15-c68e3f404141",
       ""
     ],
     [
