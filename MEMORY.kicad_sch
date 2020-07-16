@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-e9da02e~102~ubuntu20.04.1")
+(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-9f20c61~102~ubuntu20.04.1")
 
   (page 1 6)
 
@@ -1349,9 +1349,9 @@
   (junction (at 220.345 36.83) (diameter 0) (color 0 0 0 0))
   (junction (at 151.765 52.705) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 139.065 92.71))
-  (no_connect (at 139.065 87.63))
   (no_connect (at 139.065 90.17))
+  (no_connect (at 139.065 87.63))
+  (no_connect (at 139.065 92.71))
 
   (bus_entry (at 97.155 69.85) (size 2.54 -2.54)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
