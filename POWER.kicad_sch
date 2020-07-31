@@ -1,6 +1,6 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-a61ea1f~102~ubuntu20.04.1")
+(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-8324cb3~102~ubuntu20.04.1")
 
-  (page 5 6)
+  (page 1 6)
 
   (paper "A4")
 
@@ -1636,7 +1636,6 @@
   )
 
   (junction (at 28.575 43.815) (diameter 0) (color 0 0 0 0))
-  (junction (at 29.21 105.41) (diameter 0) (color 0 0 0 0))
   (junction (at 29.21 135.89) (diameter 0) (color 0 0 0 0))
   (junction (at 35.56 36.195) (diameter 0) (color 0 0 0 0))
   (junction (at 35.56 67.945) (diameter 0) (color 0 0 0 0))
@@ -1702,12 +1701,9 @@
   (junction (at 248.285 124.46) (diameter 0) (color 0 0 0 0))
   (junction (at 248.285 127) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 32.385 138.43))
   (no_connect (at 32.385 107.95))
+  (no_connect (at 32.385 138.43))
 
-  (wire (pts (xy 21.59 105.41) (xy 29.21 105.41))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
   (wire (pts (xy 21.59 135.89) (xy 29.21 135.89))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )

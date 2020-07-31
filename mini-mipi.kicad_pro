@@ -308,22 +308,27 @@
   "net_settings": {
     "classes": [
       {
+        "bus_width": 6.0,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "track_width": 0.127,
         "via_diameter": 0.4572,
-        "via_drill": 0.2032
+        "via_drill": 0.2032,
+        "wire_width": 6.0
       },
       {
+        "bus_width": 6.0,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "MIPI_0.127/1.27",
@@ -337,26 +342,32 @@
         ],
         "track_width": 0.127,
         "via_diameter": 0.4572,
-        "via_drill": 0.2032
+        "via_drill": 0.2032,
+        "wire_width": 6.0
       },
       {
+        "bus_width": 6.0,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POWER",
         "nets": [],
         "track_width": 0.254,
         "via_diameter": 0.4572,
-        "via_drill": 0.2032
+        "via_drill": 0.2032,
+        "wire_width": 6.0
       },
       {
+        "bus_width": 6.0,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SIGNAL",
@@ -400,7 +411,8 @@
         ],
         "track_width": 0.127,
         "via_diameter": 0.4572,
-        "via_drill": 0.2032
+        "via_drill": 0.2032,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -444,7 +456,7 @@
   },
   "sheets": [
     [
-      "601ca4b7-6e0d-4acc-9ec1-0de11704b325",
+      "b892a4b2-7dc8-41f0-a4ec-f33f08b43b5d",
       ""
     ],
     [
