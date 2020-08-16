@@ -71,6 +71,7 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
         "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -379,13 +380,7 @@
           "CFG0",
           "CFG1",
           "CFG2",
-          "CLK",
-          "CMD",
           "CSN",
-          "DAT0",
-          "DAT1",
-          "DAT2",
-          "DAT3",
           "DIO0",
           "DIO1",
           "DIO2",
@@ -451,12 +446,13 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
-      "b892a4b2-7dc8-41f0-a4ec-f33f08b43b5d",
+      "bdde2486-8d66-4d7d-bc04-b127340c1da2",
       ""
     ],
     [
@@ -477,7 +473,7 @@
     ],
     [
       "5523efa8-1e9d-4351-87af-f314779b18b2",
-      "SD_CARD"
+      "GPIO"
     ]
   ],
   "text_variables": {}
