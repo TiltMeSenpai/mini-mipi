@@ -1,4 +1,4 @@
-(kicad_sch (version 20200714) (host eeschema "5.99.0-unknown-027b6c8cf~102~ubuntu20.04.1")
+(kicad_sch (version 20200820) (host eeschema "5.99.0-unknown-35eda030a~103~ubuntu20.04.1")
 
   (page 4 6)
 
@@ -1856,10 +1856,10 @@
   (wire (pts (xy 167.64 45.72) (xy 214.63 45.72))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 170.18 55.88) (xy 170.18 71.755))
+  (wire (pts (xy 170.18 60.96) (xy 170.18 71.755))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 170.18 55.88) (xy 214.63 55.88))
+  (wire (pts (xy 170.18 60.96) (xy 214.63 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 172.72 69.215) (xy 162.56 69.215))
@@ -1993,9 +1993,6 @@
   (label "DIO0" (at 212.725 53.34 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
-  (label "CSN" (at 212.725 55.88 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-  )
   (label "TMS" (at 212.725 73.66 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
@@ -2018,6 +2015,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
   (label "CFG2" (at 212.725 97.79 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+  )
+  (label "CSN" (at 214.63 60.96 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 

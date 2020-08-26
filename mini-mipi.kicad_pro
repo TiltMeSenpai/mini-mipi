@@ -37,7 +37,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.127
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -333,14 +333,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "MIPI_0.127/1.27",
-        "nets": [
-          "CAM_IN.CLK_N",
-          "CAM_IN.CLK_P",
-          "CAM_IN.D0_N",
-          "CAM_IN.D0_P",
-          "CAM_IN.D1_N",
-          "CAM_IN.D1_P"
-        ],
+        "nets": [],
         "track_width": 0.127,
         "via_diameter": 0.4572,
         "via_drill": 0.2032,
@@ -372,38 +365,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SIGNAL",
-        "nets": [
-          "CAM_IN.CLK",
-          "CAM_IN.GPIO",
-          "CAM_IN.SCL",
-          "CAM_IN.SDA",
-          "CFG0",
-          "CFG1",
-          "CFG2",
-          "CSN",
-          "DIO0",
-          "DIO1",
-          "DIO2",
-          "DIO3",
-          "DQ0",
-          "DQ1",
-          "DQ2",
-          "DQ3",
-          "DQ4",
-          "DQ5",
-          "DQ6",
-          "DQ7",
-          "MCK",
-          "RWDS",
-          "TCK",
-          "TDI",
-          "TDO",
-          "TMS",
-          "USB_DM",
-          "USB_DP",
-          "~CS",
-          "~RESET"
-        ],
+        "nets": [],
         "track_width": 0.127,
         "via_diameter": 0.4572,
         "via_drill": 0.2032,
@@ -452,7 +414,7 @@
   },
   "sheets": [
     [
-      "bdde2486-8d66-4d7d-bc04-b127340c1da2",
+      "c42e127c-845b-41fd-a67c-f7ce45fd5b40",
       ""
     ],
     [
